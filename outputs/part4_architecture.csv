@@ -1,0 +1,8 @@
+layer,layer_type,output_shape,parameters
+mlp_hidden1,dense,"(16,)",12560
+mlp_hidden2,dense,"(16,)",272
+mlp_output,dense,"(10,)",170
+cnn_conv1,convolution,"(24, 24, 5)",380
+cnn_conv2,convolution,"(8, 8, 5)",630
+cnn_dense1,dense,"(32,)",2592
+cnn_dense2,dense,"(10,)",330
